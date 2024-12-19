@@ -3,6 +3,8 @@
 :root {
     --main-font: 'Inter-Variable';
     --accent-font: 'PressStart2P';
+    --l-weight: 700;
+    --s-weight: 400;
     --bg-image: repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
     repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
     linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
