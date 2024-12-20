@@ -30,7 +30,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-block-size: 323px;
+  padding-block: 118px;
   background-color: var(--bg-color);
   margin-block-end: 100px;
   border: 2px solid #000;
@@ -345,7 +345,21 @@
   }
 
   .header {
-    min-block-size: 368px;
+    padding-block: 126px;
+  }
+
+  .logo {
+    font-size: 65px;
+    line-height: 65px;
+  }
+
+  .header-title {
+    font-size: 23px;
+    line-height: 23px;
+  }
+
+  .post-title {
+    inline-size: 662px;
   }
 
   .label {
@@ -356,6 +370,7 @@
     height: 21px;
     width: 21px;
     margin-inline-end: 8px;
+    margin-block-end: 0;
   }
 
   .download-button {
